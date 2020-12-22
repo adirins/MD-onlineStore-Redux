@@ -4,9 +4,6 @@ import Card from '../components/card/card';
 import { RootState } from '../store/types';
 
 
-
-
-
 const Cart: FC = () => {
 
   const userCart = useSelector((state: RootState) => state.cart);
